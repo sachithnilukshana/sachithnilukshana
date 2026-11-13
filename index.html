@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachith Nilukshana — Developer & AI Enthusiast</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 2.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .bio {
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      background-color: var(--accent);
+      color: #0f172a;
+      transition: opacity 0.2s;
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.15rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>👋 Hey, I'm Sachith Nilukshana</h1>
+      <p class="tagline">💻 Developer in Progress · 🤖 AI Enthusiast · 🚀 Future Software Engineer</p>
+      <p class="bio">
+        Developer from Sri Lanka passionate about artificial intelligence, web development, and building intelligent software that turns ambitious ideas into reality.
+      </p>
+      <div class="links">
+        <a href="https://github.com/sachithnilukshana" target="_blank" rel="noopener noreferrer" class="btn">GitHub Profile</a>
+        <a href="https://vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Portfolio</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>🚀 Featured Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🤖 MAX AI</h3>
+          <p>
+            A personal AI assistant featuring persistent memory, Ollama local model support, tool calling, workspace management, and intelligent routing.
+          </p>
+        </div>
+        <div class="card">
+          <h3>🎬 Max Cinema</h3>
+          <p>
+            A movie and TV discovery platform with search, trending titles, watchlists, trailer viewing, and an administrator dashboard.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚡ Tech & Focus Areas</h2>
+      <div class="tags">
+        <span class="tag">React & TypeScript</span>
+        <span class="tag">Python & FastAPI</span>
+        <span class="tag">LLMs & AI Agents</span>
+        <span class="tag">Ollama & RAG</span>
+        <span class="tag">PostgreSQL & Supabase</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">C++</span>
+      </div>
+    </section>
+
+    <footer>
+      <p>⚡ DREAM BIG. BUILD SMART. KEEP LEARNING.</p>
+      <p>&copy; 2026 Sachith Nilukshana</p>
+    </footer>
+  </div>
+</body>
+</html>
